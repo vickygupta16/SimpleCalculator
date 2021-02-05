@@ -258,4 +258,8 @@ hr {
     border: none;
     outline: none;
   }
+  .calc-recs {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 }
