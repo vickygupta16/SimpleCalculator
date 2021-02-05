@@ -49,6 +49,5 @@ $(document).ready(function ($) {
       $(".code-logo").removeClass("animate-code-logo");
       $(".dev-logo").removeClass("animate-dev-logo");
     }, 500);
-    console.log("done");
   }
 });
