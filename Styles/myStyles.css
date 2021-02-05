@@ -89,11 +89,6 @@ body {
   right: 0;
 }
 
-#recs {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .code-logo {
   position: fixed;
   display: none;
@@ -207,6 +202,11 @@ hr {
   overflow-y: auto;
   overflow-x: auto;
   margin: auto;
+}
+
+.calc-recs {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .radio-bold {
