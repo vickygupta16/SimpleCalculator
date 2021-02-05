@@ -239,4 +239,18 @@ hr {
     overflow-y: scroll;
     float: left;
   }
+  #calc-io {
+    width: 100%;
+    text-align: right;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px auto;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: "Consolas";
+    border: none;
+    outline: none;
+  }
 }
