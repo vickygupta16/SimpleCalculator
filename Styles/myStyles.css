@@ -89,6 +89,11 @@ body {
   right: 0;
 }
 
+#recs {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .code-logo {
   position: fixed;
   display: none;
