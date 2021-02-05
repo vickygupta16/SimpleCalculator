@@ -1,0 +1,242 @@
+body {
+  background-color: #fcbf49;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 570px;
+  padding: 20px;
+  border-radius: 20px !important;
+}
+
+.radio-method {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#calc-io {
+  width: 100%;
+  text-align: right;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  margin: 10px auto;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Consolas";
+  border: none;
+  outline: none;
+}
+
+.sc {
+  border: 2px solid black;
+}
+
+.history-div {
+  display: none;
+}
+
+.table {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sc-table td,
+.sc-table button {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Consolas";
+}
+
+.sc-table td {
+  width: 25%;
+}
+
+.table button {
+  width: 100%;
+}
+
+.toast-error {
+  background-color: #d00000;
+  font-weight: bold;
+}
+
+.toast-warning {
+  color: black !important;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.toast-info {
+  color: black !important;
+  background-color: #00b4d8;
+  font-weight: bold;
+}
+
+.info-contact {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.code-logo {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 0;
+}
+
+.animate-code-logo {
+  display: block;
+  animation: animeCode 0.5s linear forwards;
+}
+
+.hide-code-logo {
+  animation: hideCode 0.5s linear forwards;
+}
+
+@keyframes animeCode {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg) scale(1.5);
+    opacity: 1;
+  }
+}
+
+@keyframes hideCode {
+  0% {
+    transform: translateY(-100px) scale(1.5);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px) scale(1) rotate(-360deg);
+    opacity: 0;
+  }
+}
+
+.dev-logo {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+}
+
+.animate-dev-logo {
+  display: block;
+  animation: animeDev 0.5s linear forwards;
+}
+
+.hide-dev-logo {
+  animation: hideDev 0.5s linear forwards;
+}
+
+@keyframes animeDev {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-100px) rotate(360deg) scale(1.5);
+    opacity: 1;
+  }
+}
+
+@keyframes hideDev {
+  0% {
+    transform: translateX(-100px) scale(1.5);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px) scale(1) rotate(-360deg);
+    opacity: 0;
+  }
+}
+
+.bottom-line {
+  text-align: center;
+  clear: both;
+  width: 90%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 3px !important;
+  border-radius: 50px;
+}
+
+.calc-records {
+  width: 400px;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: auto;
+}
+
+.radio-bold {
+  font-weight: bold;
+  color: #7bc950;
+}
+
+.result {
+  font-size: 1.5rem;
+}
+
+.backToCalc-div {
+  margin-top: 20px;
+}
+
+.black-icon {
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .sc-head {
+    font-size: 20px;
+  }
+  .container {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 15px !important;
+    overflow-y: scroll;
+    float: left;
+  }
+}
